@@ -32,7 +32,7 @@ shinyUI(fluidPage(
             sliderInput("bins", "Number of bins in histogram:",
                         min = 1, max = 20, value = 10),
             hr(),
-            
+
             
             # UI for proposed fit density plot
             sliderInput("proposed_mean", "Proposed Mean", 85.0, 
@@ -66,7 +66,6 @@ shinyUI(fluidPage(
                         tabPanel("Distributions", plotOutput("distPlot")), 
                         tabPanel("Instructions", verbatimTextOutput("instructions"))
             )
-            #plotOutput("distPlot")
         )
     )
 ))

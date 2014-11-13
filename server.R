@@ -9,6 +9,7 @@ library(shiny)
 
 
 shinyServer(function(input, output) {
+
     
     # Generate instructions for how to use this app
     output$instructions <- renderText({

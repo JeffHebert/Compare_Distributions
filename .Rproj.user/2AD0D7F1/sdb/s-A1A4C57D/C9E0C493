@@ -1,0 +1,16 @@
+{
+    "contents" : "Compare Distributions\n========================================================\nauthor: Jeff Hebert\ndate: 11/12/2014\ntransition: rotate\n\nA simple Shiny App\n------------------\n\nMotivation\n========================================================\n\nCan you tell if your data is normally distributed?\n\nThis app will allow you to visualize how mean and standard deviation parameters affect a theoretical distribution. In this case, we are working with the well known normal (or Gaussian) distribution. This app uses data that is available in the 'datasets' package which comes installed with base R. These distributions are choses to show how real-world data can somtimes fall within a normal distribution. Can you spot which sets are normally distributed?\n\nThe app is located at [jeffhebert.shinyapps.io/Compare_Distributions](https://jeffhebert.shinyapps.io/Compare_Distributions/)\n\nHow to Use This App\n========================================================\n\nStart by selecting one of the 4 data sets. R will overlay a gaussian distribution. The default mean is 85 and default standard deviation of 7.5.\n\nYou adjust the number of bins in histogram to make a finer or coarser graph.\n\nAdjust the Proposed Mean to move the center of the proposed distribution.\n\nAdjust the Proposed Standard Deviation to change the spread of the distribution.\n\nClick on the Show best fit check box to add a fitted distribution for the dataset.\n\n\nDistributions Tab\n========================================================\n\nThe Distributions tab shows a histogram of the dataset you selected. \n\nYour choice for the number of bins will determine the width of each bar.\n\nThe smooth blue curve is your proposed gaussian distribution. You can change its location and scale by adjusting the mean and standard deviation sliders.\n\nWhen you are ready, show the best fit \n\n\nInstructions Tab\n========================================================\n\nJust in case these slides are not available, the Instructions tab will give a brief tutorial on how to use this app.\n\n\nFuture Work\n========================================================\n\nFuture versions of this app will allow selection among several theoretical distributions such as lognormal, beta, and exponential.\n\nAlso, future versions the user will be able to load data from a local source.\n\n\n\nThank you for checking out my app!\n\nJeff",
+    "created" : 1415837150107.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "872726650",
+    "id" : "C9E0C493",
+    "lastKnownWriteTime" : 1415841978,
+    "path" : "~/Courses/DataScience/courses/09_DevelopingDataProducts/app_project/Compare_Distributions/Hebert_Compare_Distributions.Rpres",
+    "project_path" : "Hebert_Compare_Distributions.Rpres",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}
